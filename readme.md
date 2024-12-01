@@ -13,3 +13,11 @@ Prepare the environment:
     compose or copy main.py
     uvicorn main:app --reload
 
+2. In Memory Data
+
+Create storage_in_memory.py to store the data. 
+Create ./routers to save routers. First router is post_router.py
+Link Post router to root router in main.py.
+http://127.0.0.1:8000/post/ will show the data in storage_in_memory.py
+
+
