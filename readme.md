@@ -20,4 +20,17 @@ Create ./routers to save routers. First router is post_router.py
 Link Post router to root router in main.py.
 http://127.0.0.1:8000/post/ will show the data in storage_in_memory.py
 
+3. SQLAlchemy
+
+It’s important to note that SQLAlchemy by itself doesn’t know how to talk to a database directly. It requires a database driver to handle the communication with the database. Since we are using PostgreSQL, we’ve already installed the necessary driver (psycopg2) in previous sections.
+
+    - pip install sqlalchemy
+    - pip install psycopg2
+
+3.1 Create db folder to hold all the database connection and operation.
+3.2 the first step is to connect to database. create conn_sqlalchemy.py.
+3.3 save db.uri into .env
+3.4 engine
+3.5 session
+3.6 base table
 
