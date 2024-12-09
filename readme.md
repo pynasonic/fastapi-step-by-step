@@ -34,3 +34,7 @@ It’s important to note that SQLAlchemy by itself doesn’t know how to talk to
 3.5 session
 3.6 base table
 
+4. Full Stace JWT
+![alt text](.\images\useCases.png)
+![alt text](.\images\erd.png)
+![alt text](.\images\structure.png)
